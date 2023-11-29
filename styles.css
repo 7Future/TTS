@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Share Tech Mono', monospace;
+  color: #daf6ff;
+}
+
+.countdown {
+  text-align: center;
+}
+
+.countdown h1 {
+  margin-bottom: 20px;
+}
+
+.timer {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.buttons .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.buttons .button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.play-now-button {
+  background-color: rgb(255, 255, 255);
+  color: #0f3854;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.play-now-button:hover {
+  transform: scale(1.1);
+}
