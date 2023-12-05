@@ -1,4 +1,3 @@
-/* CSS styles for the provided HTML */
 
 html, body {
   height: 100%;
@@ -101,3 +100,27 @@ body {
 .play-now-button:hover {
   transform: scale(1.1);
 }  
+
+/* Other existing styles */
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.header p {
+  margin-bottom: 0; /* Adjust as needed */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.larger-text {
+  font-size: 1.1em; /* Adjust the font size as needed */
+}
