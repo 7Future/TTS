@@ -1,5 +1,6 @@
 // Set the target date and time in UTC (considering the time difference for EST, UTC-5)
-const targetDate = new Date("2023-12-24T16:00:00Z");
+const targetDate = new Date("2023-12-31T16:00:00Z"); // Updated target date to December 31, 2023, 16:00:00 UTC
+
 const countdownDate = targetDate.getTime();
 const countdownSound = document.getElementById('countdownSound');
 const timerDisplay = document.getElementById('timer');
