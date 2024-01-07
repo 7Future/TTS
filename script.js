@@ -26,5 +26,5 @@ const timer = setInterval(function() {
 }, 1000);
 
 function redirectToAnotherWebsite() {
-  window.location.href = 'https://www.roblox.com/games/14816191294/WW2-Tank-Simulator-OSTFRONT-1944'; // Replace with your desired URL
+  window.location.href = 'https://www.roblox.com/games/14699051982/'; // Replace with your desired URL
 }
