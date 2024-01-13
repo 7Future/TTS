@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Share Tech Mono', monospace;
-  color: #daf6ff; /* Light blue text color */
+  color: #daf6ff;
   display: flex;
   flex-direction: column;
 }
@@ -20,16 +20,16 @@ body {
 }
 
 .header h1 {
-  margin-bottom: 10px; /* Adjust as needed */
-  font-size: 36px; /* Adjust as needed */
+  margin-bottom: 10px;
+  font-size: 36px;
 }
 
 .game-image-container {
-  width: 300px; /* Adjust width as needed */
-  height: 300px; /* Adjust height as needed */
+  width: 300px;
+  height: 300px;
   margin: auto;
   overflow: hidden;
-  border: 2px solid #fff; /* Optional border */
+  border: 2px solid #fff;
 }
 
 .game-image-container img {
@@ -44,16 +44,16 @@ body {
 
 .countdown {
   text-align: center;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .countdown h2 {
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px;
 }
 
 .get-updates {
   text-align: center;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .icons {
@@ -62,15 +62,15 @@ body {
   align-items: center;
   gap: 20px;
   text-align: center;
-  margin-bottom: 20px; /* Adjust as needed */
+  margin-bottom: 20px;
 }
 
 .icons .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px; /* Adjust as needed */
-  height: 50px; /* Adjust as needed */
+  width: 50px;
+  height: 50px;
   border: none;
   border-radius: 5px;
   overflow: hidden;
@@ -88,20 +88,18 @@ body {
 
 .play-now-button {
   background-color: rgb(255, 255, 255);
-  color: #0066ff; /* Blue text color */
+  color: #0066ff;
   border: none;
   border-radius: 15px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .play-now-button:hover {
   transform: scale(1.1);
 }  
-
-/* Other existing styles */
 
 .header {
   text-align: center;
@@ -114,7 +112,7 @@ body {
 }
 
 .header p {
-  margin-bottom: 0; /* Adjust as needed */
+  margin-bottom: 0;
 }
 
 .bold-text {
@@ -122,5 +120,5 @@ body {
 }
 
 .larger-text {
-  font-size: 1.1em; /* Adjust the font size as needed */
+  font-size: 1.1em;
 }

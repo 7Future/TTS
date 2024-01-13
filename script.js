@@ -1,5 +1,4 @@
-// Set the target date and time in UTC (considering the time difference for EST, UTC-5)
-const targetDate = new Date("2024-01-20T16:00:00Z"); // Updated target date to January 20, 2024, 16:00:00 UTC
+const targetDate = new Date("2024-01-20T16:00:00Z");
 
 const countdownDate = targetDate.getTime();
 const countdownSound = document.getElementById('countdownSound');
@@ -19,12 +18,11 @@ const timer = setInterval(function() {
     timerDisplay.innerHTML = '<button onclick="redirectToAnotherWebsite()" class="play-now-button">PLAY NOW</button>';
     countdownSound.play();
   } else {
-    // Display the countdown timer
     timerDisplay.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
     countdownSound.play();
   }
 }, 1000);
 
 function redirectToAnotherWebsite() {
-  window.location.href = 'https://www.roblox.com/games/14699051982/'; // Replace with your desired URL
+  window.location.href = 'https://www.roblox.com/games/14699051982/';
 }
