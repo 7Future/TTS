@@ -1,4 +1,4 @@
-const targetDate = new Date("2024-01-28T16:00:00Z");
+const targetDate = new Date("2024-02-04T16:00:00Z");
 const countdownDate = targetDate.getTime();
 const countdownSound = document.getElementById('countdownSound');
 const timerDisplay = document.getElementById('timer');
