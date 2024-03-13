@@ -14,10 +14,11 @@ const timer = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(timer);
-    timerDisplay.innerHTML = '<button onclick="redirectToAnotherWebsite()" class="play-now-button">PLAY NOW</button>';
+    timerDisplay.innerHTML = '<button id="playNowButton" class="play-now-button">PLAY NOW</button>';
     countdownSound.play();
+    document.getElementById('playNowButton').addEventListener('click', redirectToAnotherWebsite);
   } else {
-    timerDisplay.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    timerDisplay.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
     countdownSound.play();
   }
 }, 1000);
