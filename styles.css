@@ -9,7 +9,7 @@ html, body {
 
 body {
   position: relative;
-  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background: radial-gradient(ellipse at center, #37380a 0%, #000000 70%);
   flex: 1;
 }
 
