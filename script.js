@@ -1,4 +1,4 @@
-const targetDate = new Date("2024-05-01T16:00:00Z");
+const targetDate = new Date("2024-06-29T16:00:00Z");
 const countdownDate = targetDate.getTime();
 const countdownSound = document.getElementById('countdownSound');
 const timerDisplay = document.getElementById('timer');
@@ -24,5 +24,5 @@ const timer = setInterval(function() {
 }, 1000);
 
 function redirectToAnotherWebsite() {
-  window.location.href = 'https://www.roblox.com/games/14699051982/';
+  window.location.href = 'https://7future.github.io/tts/';
 }
