@@ -1,7 +1,9 @@
-const targetDate = new Date("2024-06-29T16:00:00Z");
+const targetDate = new Date("2025-06-29T16:00:00Z");
 const countdownDate = targetDate.getTime();
 const countdownSound = document.getElementById('countdownSound');
 const timerDisplay = document.getElementById('timer');
+
+let soundPlayed = false;
 
 const timer = setInterval(function() {
   const now = new Date().getTime();
@@ -15,11 +17,13 @@ const timer = setInterval(function() {
   if (distance < 0) {
     clearInterval(timer);
     timerDisplay.innerHTML = '<button id="playNowButton" class="play-now-button">PLAY NOW</button>';
-    countdownSound.play();
+    if (!soundPlayed) {
+      countdownSound.play();
+      soundPlayed = true;
+    }
     document.getElementById('playNowButton').addEventListener('click', redirectToAnotherWebsite);
   } else {
     timerDisplay.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-    countdownSound.play();
   }
 }, 1000);
 
